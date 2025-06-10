@@ -25,15 +25,15 @@ The objective is to design a predictive deep learning model and deploy it in pro
 ```
 ## Data
 
-The dataset is sourced from Météo-France via the Open-Meteo.com API. It contains hourly weather observations in Paris over a 10-year period, ranging from January 1st, 2015 at 00:00 to January 1st, 2025 at 23:00.
+The dataset is sourced from Météo-France via the Open-Meteo.com API. It contains hourly weather observations in Paris over a 10-year period, ranging from January 1st, 2015 at 00:00 to January 1st, 2025 at 23:00. The timezone is Europe/Berlin or Europe/Paris. The latitude is 2.35° and the longitude is 48.85°. You can take the data from the following link : https://open-meteo.com/en/docs/meteofrance-api#location_and_time.
 Each record includes the following variables:
 
 - Date and time (hourly resolution — 24 values per day),
-- Temperature (in °C),
-- Humidity (in %),
+- Temperature (2m in °C),
+- Humidity (2m in %),
 - Cloud cover (in %),
-- Wind speed (in km/h),
-- Wind direction (in degrees, indicating the direction the wind is coming from).
+- Wind speed (10m in km/h),
+- Wind direction (10m in degrees, indicating the direction the wind is coming from).
 
 This temporal dataset is ideal for time series analysis and modeling tasks such as temperature forecasting.
 
