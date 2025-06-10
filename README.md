@@ -16,12 +16,13 @@ The objective is to design a predictive deep learning model and deploy it in pro
 ## Project structure
 ```
 📁 Temperatures_forecasting/
-├── 📊 EDA.ipynb .................... Full exploratory analysis
+├── 📊 Temperatures_forecasting.ipynb .................... Full exploratory analysis (EDA)
 ├── 🤖 model_training.ipynb ........ Model design and training
 ├── 🧪 evaluation.ipynb ............ Model testing and validation
 ├── 🧰 requirements.txt ............ Required Python libraries
 ├── 🚀 app/ ........................ API and Gradio interface
 └── 🐳 docker/ ...................... Docker setup and deployment
+└── .gitignore ...................... Files to ignore
 ```
 ## Data
 
