@@ -14,7 +14,7 @@ The objective is to design a predictive deep learning model and deploy it in pro
 - Docker and AWS EC2 for cloud deployment
 
 ## Project structure
-
+```
 📁 Temperatures_forecasting/
 ├── 📊 EDA.ipynb .................... Full exploratory analysis
 ├── 🤖 model_training.ipynb ........ Model design and training
@@ -22,7 +22,7 @@ The objective is to design a predictive deep learning model and deploy it in pro
 ├── 🧰 requirements.txt ............ Required Python libraries
 ├── 🚀 app/ ........................ API and Gradio interface
 └── 🐳 docker/ ...................... Docker setup and deployment
-
+```
 ## Data
 
 The dataset is sourced from Météo-France via the Open-Meteo.com API. It contains hourly weather observations in Paris over a 10-year period, ranging from January 1st, 2015 at 00:00 to January 1st, 2025 at 23:00.
