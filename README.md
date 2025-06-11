@@ -40,6 +40,18 @@ This temporal dataset is ideal for time series analysis and modeling tasks such 
 
 ## Exploratory Data Analysis (EDA)
 
+The exploratory analysis is detailed in the notebook `Temperatures_forecasting.ipynb`.  
+It focuses on identifying temporal patterns and relationships between weather variables such as humidity, wind, and cloud cover, and how they relate to temperature.
+
+Key steps include:
+- Temporal analysis of each variable (daily and seasonal trends)
+- Correlation analysis to detect linear relationships, especially with temperature
+- Wind rose and directional wind speed analysis
+- Feature engineering using cyclic encodings (sin/cos) of time variables
+- Visualizations to support variable selection for forecasting
+
+This step helps determine which variables and transformations are most relevant for the prediction model.
+
 ## Deep Learning modelization
 
 ## Model Explainability with SHAP
